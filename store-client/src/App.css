@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.p-tag {
+  background: #A4792C;
+}
+.p-selectbutton .p-button.p-highlight {
+  background: #A4792C;
+  border-color: #A4792C;
+}
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+  color: #A4792C;
+}
+.p-button-rounded {
+  background: #A4792C;
+  border: 1px solid #A4792C;
+}
+
+
